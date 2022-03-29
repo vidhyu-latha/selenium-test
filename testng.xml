@@ -1,0 +1,18 @@
+<suite name="Suite" parallel="methods">
+    <test name = "Test">
+        <parameter name="browserName" value="Chrome"/>
+        <classes>
+            <class name="pages.test.Test99GuruLogin">
+
+            </class>
+        </classes>
+    </test>
+    <test name = "Test1">
+        <parameter name="browserName" value="Chrome"/>
+        <classes>
+            <class name="pages.test.Test99GuruLogin">
+
+            </class>
+        </classes>
+    </test>
+</suite>

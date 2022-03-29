@@ -1,0 +1,13 @@
+<suite name="Suite" parallel="methods">
+    <test name = "Test">
+        <classes>
+            <class name="RunParticularTestCase">
+                <methods>
+                    <include name="testMethod1"> </include>
+                    <include name="testMethod3"> </include>
+                    <include name="testMethod4"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
